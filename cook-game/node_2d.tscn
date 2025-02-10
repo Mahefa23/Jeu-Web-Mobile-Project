@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://prr4s3ynoull"]
+
+[ext_resource type="Script" path="res://start_button.gd" id="1_5s0gf"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5igp0"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="StartButton" type="Button" parent="."]
+offset_left = 441.0
+offset_top = 269.0
+offset_right = 634.0
+offset_bottom = 361.0
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_5igp0")
+text = "Start"
+script = ExtResource("1_5s0gf")
